@@ -1,0 +1,22 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System;
+using System.Globalization;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.AI;
+using LitJson;
+
+public class Test : MonoBehaviour
+{
+    public RectTransform target;
+    // Use this for initialization
+    void Start () {
+        target.pivot = new Vector2(1,1);
+        target.sizeDelta = new Vector2(250,46);
+        target.anchorMax = Vector2.one*0.5f;
+
+    }
+}
+
